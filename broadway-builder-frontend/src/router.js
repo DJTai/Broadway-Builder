@@ -73,6 +73,11 @@ export default new Router({
       path:"/logout",
       name:'logout',
       component: () => import("./views/Logout.vue")
+    },
+    {
+      path: "/aboutus",
+      name: 'aboutus',
+      component: () => import("./views/AboutUs.vue")
     }
 
   ]

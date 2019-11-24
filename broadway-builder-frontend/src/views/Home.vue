@@ -10,9 +10,9 @@
             <h1 class="display-2 font-weight-thin mb-3">Welcome</h1>
             <h4 class="subheading">And <strong>thank you</strong> for choosing Broadway Builder</h4>
             <div v-if="!$store.state.token" style="margin: 4em 1em">
-              <v-btn href="https://kfc-sso.com/#/register" depressed>Register</v-btn>
+              <v-btn href="https://sso.broadwaybuilder.xyz/#/register" depressed>Register</v-btn>
               or
-              <v-btn href="https://kfc-sso.com/#/login" depressed>Sign In</v-btn>
+              <v-btn href="https://sso.broadwaybuilder.xyz/#/login" depressed>Sign In</v-btn>
             </div>
           </v-layout>
         </v-parallax>
